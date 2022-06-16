@@ -9,14 +9,22 @@ h1 span {
 h2 span {
   color: green;
 }
-
+/* 
 a:nth-child(2) {
   text-transform: uppercase;
-}
+} */
 
-a{
+/* nav a{
+  text-transform: uppercase;
+} */
+
+ navegacion a{
   text-transform: uppercase;
 }
-a{
+.navegacion a {
   text-transform: lowercase;
+}
+
+#navegacion a {
+  text-transform: capitalize;
 }
