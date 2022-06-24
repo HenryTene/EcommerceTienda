@@ -36,7 +36,7 @@ h2 span {
   background-color: red;
   width: 200px;
   padding: 25px;
-  box-sizing: border-box;
+
 }
 .sobre-empresa{
   background-color: blue;
@@ -45,4 +45,9 @@ h2 span {
   
 }
 
+/*** Display inline y block **/
 
+a {
+  background-color: red;
+  width: 500px;
+}
