@@ -6,7 +6,16 @@ html {
 *:after {
   box-sizing: inherit;
 }
+body {
+  font-family: "Raleway", sans-serif;
+}
 /*Globales */
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
 a {
   text-decoration: none;
   color: #000;
@@ -18,7 +27,7 @@ a {
 
 img {
   max-width: 100%;
-  display : block;
+  display: block;
 }
 
 /* Header y Navegacion */
@@ -49,16 +58,16 @@ img {
 }
 
 /*Categorias*/
-.categorias h2{
+.categorias h2 {
   text-align: center;
 }
-.categorias a{
+.categorias a {
   display: block;
-text-align: center;
-padding: 20px;
-font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
 }
-.categorias a:hover{
+.categorias a:hover {
   background-color: #037bc0;
   color: #fff;
   border-bottom-right-radius: 10px;
