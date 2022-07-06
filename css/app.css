@@ -1,53 +1,71 @@
-html{
+html {
   box-sizing: border-box;
 }
-  *, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
-  }
-  .nombre-sitio{
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+}
+/*Globales */
+a {
+  text-decoration: none;
+  color: #000;
+}
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  display : block;
+}
+
+/* Header y Navegacion */
+.nombre-sitio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
 
 .nombre-sitio span {
   color: #037bc0;
 }
 
-h2 span {
-  color: green;
+.contenedor-navegacion {
+  border-top: 1px solid #e1e1e1;
+}
+.nav-principal {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
-/*Estilos para escribir CSS en línea
-  Modulos,BEM, SMACSS
-
-*/
-
-.navegacion {
- background-color: #e1e1e1;
+.hero {
+  background-image: url(../img/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
 }
 
-.navegacion a{
-  text-transform: uppercase;
+/*Categorias*/
+.categorias h2{
+  text-align: center;
+}
+.categorias a{
+  display: block;
+text-align: center;
+padding: 20px;
+font-size: 20px;
+}
+.categorias a:hover{
+  background-color: #037bc0;
+  color: #fff;
+  border-bottom-right-radius: 10px;
 }
 
-/* Box Model */
-
-.sobre-nosotros{
-  background-color: red;
-  width: 200px;
-  padding: 25px;
-
-}
-.sobre-empresa{
-  background-color: blue;
-  width:500px;
-  padding: 100px;
-  
-}
-
-/*** Display inline y block **/
-
-a {
-  background-color: red;
-  width: 500px;
+.listado-categorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
