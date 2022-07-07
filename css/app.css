@@ -10,6 +10,7 @@ html {
 body {
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
+  line-height: 2;
 }
 /*Globales */
 
@@ -17,6 +18,15 @@ h1,
 h2,
 h3 {
   font-family: "Playfair Display", serif;
+  margin: 0 0 5rem 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
 }
 
 h3 {
@@ -39,10 +49,9 @@ img {
 
 /* Header y Navegacion */
 .nombre-sitio {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 5rem; 
   text-align: center;
-  font-size: 4rem;
+ 
 }
 
 .nombre-sitio span {
@@ -50,7 +59,7 @@ img {
 }
 
 .contenedor-navegacion {
-  border-top: .1rem solid #e1e1e1;
+  border-top: 0.1rem solid #e1e1e1;
 }
 .nav-principal {
   padding: 2rem 0;
@@ -62,10 +71,14 @@ img {
   background-image: url(../img/principal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   height: 55rem;
 }
 
 /*Categorias*/
+.categorias{
+  padding-top: 5rem;
+}
 .categorias h2 {
   text-align: center;
 }
@@ -86,3 +99,9 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+/*Existen Formas de escribir CSS
+  -Modulo
+  -BEM
+  -SMACSS
+  -Utilidades 
+*/
